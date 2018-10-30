@@ -1,0 +1,79 @@
+.perfil{
+    height: 42px;
+    width: 42px;   
+}
+.absurdo{
+    position: absolute;
+}
+.fotenha{
+    width: 100%;
+    height: auto;
+}
+.abs{
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+}
+.rela{
+    position: relative;
+    z-index: 0;
+}
+.main-max{
+    position: fixed;
+    height: 100%;
+}
+.fotenha-max{
+    max-height: 90vh;
+}
+.card-max{
+    max-height: 90vh;
+    overflow: auto;
+}
+.status-max{
+    overflow: auto;
+    max-height: 76vh;
+}
+.onlyborder{
+    border-radius: 0.25rem;
+}
+.ntemborder{
+    border: 0px !important;
+}
+.npadding{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+/* Cores */
+.bg-b1{
+    background-color: #242633;
+}
+.bg-b2{
+    background-color: #363849;
+}
+.bg-b3{
+    background-color: #575A6C;
+}
+.bg-b4{
+    background-color: #A6B1C6;
+}
+.bg-c1{
+    background-color: #3651FF;
+}
+.bg-c2{
+    background-color: #FF005B;
+}
+.bg-c3{
+    background-color: #93EC2C;
+}
+.text-c1{
+    color: #3651FF;
+}
+.text-c2{
+    color: #FF005B;
+}
+.text-c3{
+    color: #93EC2C;
+}

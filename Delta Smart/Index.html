@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+    <title>Delta Smart</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="img/Delta Smart Logo.svg" height="30px" alt="Delta Smart Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto justify-content-end">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Início<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="historico.html">Cases</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="historico.html">Históia</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="historico.html">Contato</a>
+            </li>
+            </ul>
+            <div>
+
+            </div>
+        </div>
+    </nav>
+
+    <main role="main">
+        <div class="main-max">
+        <div class="container-fluid">
+
+        </div>            
+        </div>
+    </main>   
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/popper.js/dist/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script>
+        $('.carousel').carousel({
+        interval: false
+        })  
+    </script>
+    <script>
+    $('#cadastro').on('submit', function(e){
+    $('#aprovarcadastro').modal('show');
+    e.preventDefault();
+    });
+</script>
+  </body>
+</html> 
